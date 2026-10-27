@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Generated model files
+models/*.pkl
+models/*.joblib
+
+# Generated reports
+reports/*.pdf
+
+# Datasets - do not upload automatically
+data/*.csv
+data/*.zip
+data/*.xlsx
+data/*.parquet
